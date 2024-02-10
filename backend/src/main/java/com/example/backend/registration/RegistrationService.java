@@ -18,12 +18,13 @@ public class RegistrationService {
         }
         return appUserService.singUpUser(
                 new AppUser(
-                        request.getFirstname(),
+                        request.getFirstName(),
                         request.getLastName(),
                         request.getEmail(),
                         request.getPassword(),
                         AppUserRole.USER
                 )
         );
+
     }
 }
