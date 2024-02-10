@@ -1,6 +1,6 @@
 package com.example.backend.security.config;
 
-import com.example.backend.appUser.AppUserService;
+import com.example.backend.appuser.AppUserService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.dao.DaoAuthenticationProvider;

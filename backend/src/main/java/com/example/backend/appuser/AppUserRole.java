@@ -1,4 +1,4 @@
-package com.example.backend.appUser;
+package com.example.backend.appuser;
 
 public enum AppUserRole {
     USER,

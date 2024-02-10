@@ -1,4 +1,3 @@
-
 server:
   error:
     include-message: always
@@ -6,9 +5,9 @@ server:
 
 spring:
   datasource:
-    password: adm
+    password:
     url: jdbc:postgresql://localhost:5432/registration
-    username: postgres
+    username:
   jpa:
     hibernate:
       ddl-auto: create-drop
